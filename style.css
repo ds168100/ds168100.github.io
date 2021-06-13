@@ -3,6 +3,14 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+
+    --android: #3DDC84;
+    --qt: #42cd52;
+    --apple: #555555;
+    --jenkins: #80B0C4;
+    --nodeJS: #339933;
+    --codeIgniter: #DD4814;
+    --mySQL: #00758F;
   }
 
   header.navbar {
@@ -21,7 +29,7 @@ html, body {
   #canvas {
     width: 100%;
     height: 40%;
-    margin-bottom: -6px;
+    margin-bottom: -7px;
     background: #8f000d;
   }
 
@@ -64,3 +72,11 @@ html, body {
 .projects .image{
   background-image: url(/images/dslogo.svg);
 }
+
+.android{color: var(--android);}
+.qt{color: var(--qt);}
+.apple{color: var(--apple);}
+.jenkins{color: var(--jenkins);}
+.nodeJS{color: var(--nodeJS);}
+.codeIgniter{color: var(--codeIgniter);}
+.mySQL{color: var(--mySQL);}
