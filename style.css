@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  header.navbar {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-active {
+    transition: 0.3s ease-in-out;
+    background-color:#8f000d;
+    box-shadow: 5px -1px 12px -5px black;
+  }
+
+  
+  #canvas {
+    width: 100%;
+    height: 40%;
+    margin-bottom: -6px;
+    background: #8f000d;
+  }
+
+  .custom-shape-divider-top-1623552444 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1623552444 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 199px;
+}
+
+.custom-shape-divider-top-1623552444 .shape-fill {
+    fill: #8F000D;
+}
+
+.banner{
+  width: 70%;
+  padding-left: 5vw;
+  margin: auto;   
+  color: white;
+  position: absolute;
+  top: 100px;  
+}
+
+.projects{
+  width: 100%;
+  padding-top: 2in;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.projects .image{
+  background-image: url(/images/dslogo.svg);
+}
